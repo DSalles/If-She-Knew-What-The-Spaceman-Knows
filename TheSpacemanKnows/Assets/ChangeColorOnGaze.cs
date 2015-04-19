@@ -15,7 +15,7 @@ public class ChangeColorOnGaze : MonoBehaviour {
 		}
 
 	void OnGazeExit(){
-		this.renderer.material.color = Color.gray;
+		this.renderer.material.color = Color.white;
 		}
 
 	//void onGazeDwellExit(){
